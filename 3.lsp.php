@@ -1,4 +1,5 @@
-"""
+<?php
+/*
 Liskov Substitution Principle
 
 A sub-class must be substitutable for its super-class.  The aim of this
@@ -7,7 +8,7 @@ super-class without errors.  If the code finds itself checking the type of class
 then, it must have violated this principle.
 
 Let’s use our Animal example.
-"""
+*/
 
 def animal_leg_count(animals: list):
     for animal in animals:
