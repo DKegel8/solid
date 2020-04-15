@@ -164,3 +164,15 @@ class Animal3 {
 The most important methods are kept in the Animal class and used as Facade for
 the lesser functions.
 */
+
+/*
+ * Decorator
+*/
+
+/*
+ * Facade
+ */
+
+/*
+ * Adapter
+ */
