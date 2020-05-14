@@ -1,6 +1,12 @@
 <?php
 
 /**
+	INTENT
+	Separate the construction of a complex object from its representation
+	so that the same construction process can create different representations.
+**/
+
+/**
  * The Builder interface declares a set of methods to assemble an SQL query.
  *
  * All of the construction steps are returning the current builder object to

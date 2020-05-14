@@ -1,5 +1,5 @@
 <?php
-/*
+/**
 Dependency Inversion Principle
 
 Dependency should be on abstractions not concretions A. High-level modules
@@ -12,6 +12,10 @@ composed of modules.  When this happens, we have to clear things up by using
 dependency injection.  High-level components depending on low-level components
 to function.
 */
+
+/**
+ * Dependency Injection is an Inversion of Control technique
+ */
 
 class Database {
 	public function __construct(string $host, string $user, string $password, string $name) {
@@ -27,7 +31,7 @@ class Database {
 	}
 }
 
-/*
+/**
 The class User has implicit dependency on the specific database. All dependencies should always be explicit not
 implicit. This defeats Dependency inversion principle
 

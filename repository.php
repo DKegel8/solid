@@ -30,7 +30,7 @@ interface UserRepositoryInterface
 }
 
 /*
-Interface Implamentation
+Interface Implementation
 */
 
 class SQLUserRepository implements UserRepositoryInterface

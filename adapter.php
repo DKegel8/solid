@@ -1,4 +1,10 @@
 <?php
+/** INTENT
+	Convert the interface of a class into another interface clients expect.
+	Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+	AKA Wrapper
+**/
+
 /**
  * The Target interface represents the interface that your application's classes
  * already follow.

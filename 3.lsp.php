@@ -20,9 +20,19 @@ The four conditions for abiding by the Liskov Substitution principle are as foll
     * If a method is designed to return a FileNotFoundException in the event of an error, the same condition in the inherited method must return a FileNotFoundException too
 */
 
-// Factory Pattern Example:  
-//      We are following LSP in the Creator abstract Class factoryMethod(), and its two childeren classes ConcreteCreator1 - ConcreteCreator2.
-//      Also in the Product interface operation() and its children subClasses.
+/** Factory Pattern Example:
+	We are following LSP in the Creator abstract Class factoryMethod(), and its two children classes ConcreteCreator1 - ConcreteCreator2.
+	Also in the Product interface operation() and its children subClasses.
+ */
+
+/**
+ * INTENT
+ *  Define an interface for creating an object, but let subclasses decide which class to instantiate.
+ *  Factory Method lets a class defer instantiation to subclasses.
+ *
+ * AKA
+ *  Virtual Constructor
+ */
 
 /**
  * The Creator class declares the factory method that is supposed to return an

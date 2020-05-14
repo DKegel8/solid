@@ -159,20 +159,3 @@ class Animal3 {
 	private string $name;
 	private AnimalDB $animalDb;
 }
-
-/*
-The most important methods are kept in the Animal class and used as Facade for
-the lesser functions.
-*/
-
-/*
- * Decorator
-*/
-
-/*
- * Facade
- */
-
-/*
- * Adapter
- */

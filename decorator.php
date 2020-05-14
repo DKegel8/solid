@@ -1,4 +1,9 @@
 <?php
+/**
+ * INTENT
+ * Attach additional responsibilities to an object dynamically.  Decorators provide a flexible alternative to subclassing for extending functionality.
+ */
+
 
 /**
  * The base Component interface defines operations that can be altered by
